@@ -1,281 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kolaborasi Bertiga</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      background-color: #f4f6f8;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    header {
-      background-color: #4a90e2;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    nav {
-      background-color: #fff;
-      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav li {
-      margin: 0 15px;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: #4a90e2;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: #2d6ebd;
-    }
-
-    article {
-      flex: 1;
-      max-width: 800px;
-      margin: 30px auto;
-      background-color: white;
-      border-radius: 10px;
-      padding: 25px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-
-    article h2 {
-      text-align: center;
-      color: #4a90e2;
-    }
-
-    section {
-      margin-bottom: 25px;
-      border-left: 5px solid #4a90e2;
-      padding-left: 15px;
-    }
-
-    section h3 {
-      margin-bottom: 8px;
-      color: #2d6ebd;
-    }
-
-    table {
-      border-collapse: collapse;
-      margin: 0 auto;
-      width: 90%;
-    }
-
-    footer {
-      background-color: #4a90e2;
-      color: white;
-      text-align: center;
-      padding: 15px 0;
-      margin-top: auto;
-    }
-
-    footer a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kolaborasi Bertiga</title>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
-    <h1>Tim Kami</h1>
-  </header>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        background-color: #f4f6f8;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
 
-  <nav>
-    <ul>
-      <li><a href="#juan">Valentino Juan</a></li>
-      <li><a href="#nur">Nur Jamilah</a></li>
-      <li><a href="#stephen">Stephen Joshua</a></li>
-      <li><a href="form.html">Hubungi Kami</a></li>
-    </ul>
-  </nav>
+      header {
+        background-color: #4a90e2;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
 
-  <article>
-    <h2>Perkenalan</h2>
-    <p style="text-align:center;">
-      Kami adalah tim dalam program <strong>Full Stack Software Engineering (FSSE)</strong> RevoU yang berkolaborasi dalam membangun proyek berbasis web menggunakan HTML, CSS, dan JavaScript.
-    </p>
+      nav {
+        background-color: #fff;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+      }
 
-    <section id="juan">
-      <h3>1. Valentino Juan</h3>
-      <p>Saya berfokus pada bagian desain dan struktur halaman agar tampilan web terlihat rapi dan mudah dipahami. Saya menikmati belajar kolaborasi dalam tim dan memahami bagaimana setiap bagian kode saling berhubungan.</p>
-    </section>
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+      }
 
-    <section id="nur">
-      <h3>2. Nur Jamilah</h3>
-      <p>Saya saat ini sedang berkolaborasi dalam tim project di RevoU bersama dua rekan luar biasa, Juan dan Stephen. Fokus kami adalah menerapkan kerja sama tim yang berdampak dalam Software Engineering Project. Saya antusias mengaplikasikannya secara langsung dalam lingkungan tim yang dinamis.</p>
-    </section>
+      nav li {
+        margin: 0 15px;
+      }
 
-    <section id="stephen">
-      <h3>3. Stephen Joshua</h3>
-      <p>Sebagai bagian dari tim FSSE RevoU, saya berperan dalam mengembangkan bagian backend sekaligus mempelajari penerapan frontend. Saya senang berkolaborasi, berbagi ide, dan belajar hal baru yang bisa meningkatkan kualitas aplikasi web yang kami buat bersama.</p>
-    </section>
-  </article>
+      nav a {
+        text-decoration: none;
+        color: #4a90e2;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
 
-    <article> <h2> Tentang Kami</h2>
+      nav a:hover {
+        color: #2d6ebd;
+      }
 
-  <section>
-    <table border="1" cellpadding="10" cellspacing="0" width="80%">
-      
-     <!-- Juan-->
-    <!-- Baris Profil -->
-      <th colspan="2">Profil Juan</th>
-    </tr>
-    <tr>
-      <td width="30%" align="center">
-        <img src="images/juan.png" alt="Foto Profil" width="150" ">
-      </td>
-      <td>
-        <p><b>Nama:</b> Valentino Juan Agushta</p>
-        <p><b>Umur:</b> 24 tahun</p>
-        <p><b>Deskripsi:</b> Berawal dari latar belakang hukum, akhir-akhir ini saya menemukan minat yang kuat di bidang teknologi, terutama Software Engineering. Saat ini saya sedang belajar melalui kursus daring.
-Saya antusias dengan bagaimana teknologi dapat memecahkan masalah dunia nyata dan saya ingin belajar, berkembang, dan terhubung dengan orang lain di bidang teknologi.
-</p>
-      </td>
-    </tr>
+      article {
+        flex: 1;
+        max-width: 800px;
+        margin: 30px auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
 
-    <!-- Baris Kontak -->
-     
-      <th colspan="2">Kontak</th>
-    </tr>
-    <tr>
-      <td><b>Email</b></td>
-      <td><a href="mailto:valentinojuan46@gmail.com">valentinojuan46@gmail.com</a></td>
-    </tr>
-    <tr>
-      <td><b>LinkedIn</b></td>
-      <td><a href="https://www.linkedin.com/in/valentino-juan-agushta-002208301" target="_blank">linkedin.com/in/valentinojuanagushta</a></td>
-    </tr>
-    <tr>
-      <td><b>GitHub</b></td>
-      <td><a href="https://github.com/valentinojuan79" target="_blank">github.com/valentinojuan79</a></td>
-    </tr>
-    <tr>
-      <td><b>Nomor Telepon</b></td>
-      <td>085157443845</td>
-    </tr>
-  </table>
-  </section>
+      article h2 {
+        text-align: center;
+        color: #4a90e2;
+      }
+
+      section {
+        margin-bottom: 25px;
+        border-left: 5px solid #4a90e2;
+        padding-left: 15px;
+      }
+
+      section h3 {
+        margin-bottom: 8px;
+        color: #2d6ebd;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 90%;
+      }
+
+      th {
+        background-color: #eaf3ff;
+        color: #2d6ebd;
+      }
+
+      td,
+      th {
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+
+      footer {
+        background-color: #4a90e2;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: auto;
+      }
+
+      footer a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tim Kami</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#juan">Valentino Juan</a></li>
+        <li><a href="#nur">Nur Jamilah</a></li>
+        <li><a href="#stephen">Stephen Joshua</a></li>
+        <li><a href="form.html">Hubungi Kami</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <h2>Perkenalan</h2>
+      <p style="text-align: center">
+        Kami adalah tim dalam program
+        <strong>Full Stack Software Engineering (FSSE)</strong> RevoU yang
+        berkolaborasi dalam membangun proyek berbasis web menggunakan HTML, CSS,
+        dan JavaScript.
+      </p>
+
+      <section id="juan">
+        <h3>1. Valentino Juan</h3>
+        <p>
+          Saya berfokus pada bagian desain dan struktur halaman agar tampilan
+          web terlihat rapi dan mudah dipahami. Saya menikmati belajar
+          kolaborasi dalam tim dan memahami bagaimana setiap bagian kode saling
+          berhubungan.
+        </p>
+      </section>
+
+      <section id="nur">
+        <h3>2. Nur Jamilah</h3>
+        <p>
+          Saya saat ini sedang berkolaborasi dalam tim project di RevoU bersama
+          dua rekan luar biasa, Juan dan Stephen. Fokus kami adalah menerapkan
+          kerja sama tim yang berdampak dalam Software Engineering Project. Saya
+          antusias mengaplikasikannya secara langsung dalam lingkungan tim yang
+          dinamis.
+        </p>
+      </section>
+
+      <section id="stephen">
+        <h3>3. Stephen Joshua</h3>
+        <p>
+          Sebagai bagian dari tim FSSE RevoU, saya berperan dalam mengembangkan
+          bagian backend sekaligus mempelajari penerapan frontend. Saya senang
+          berkolaborasi, berbagi ide, dan belajar hal baru yang bisa
+          meningkatkan kualitas aplikasi web yang kami buat bersama.
+        </p>
+      </section>
+    </article>
+
+    <article>
+      <h2>Tentang Kami</h2>
 
 
-  <section>
-    <table border="1" cellpadding="10" cellspacing="0" width="80%">
+      <section>
+        <table>
+          <tr>
+            <th colspan="2">Profil Juan</th>
+          </tr>
+          <tr>
+            <td width="30%" align="center">
+              <img src="images/juan.png" alt="Foto Profil" width="150" />
+            </td>
+            <td>
+              <p><b>Nama:</b> Valentino Juan Agushta</p>
+              <p><b>Umur:</b> 24 tahun</p>
+              <p>
+                <b>Deskripsi:</b> Berawal dari latar belakang hukum, akhir-akhir
+                ini saya menemukan minat yang kuat di bidang teknologi, terutama
+                Software Engineering. Saat ini saya sedang belajar melalui
+                kursus daring. Saya antusias dengan bagaimana teknologi dapat
+                memecahkan masalah dunia nyata dan saya ingin belajar,
+                berkembang, dan terhubung dengan orang lain di bidang teknologi.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">Kontak</th>
+          </tr>
+          <tr>
+            <td><b>Email</b></td>
+            <td>
+              <a href="mailto:valentinojuan46@gmail.com"
+                >valentinojuan46@gmail.com</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><b>LinkedIn</b></td>
+            <td>
+              <a
+                href="https://www.linkedin.com/in/valentino-juan-agushta-002208301"
+                target="_blank"
+                >linkedin.com/in/valentinojuanagushta</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><b>GitHub</b></td>
+            <td>
+              <a href="https://github.com/valentinojuan79" target="_blank"
+                >github.com/valentinojuan79</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><b>Nomor Telepon</b></td>
+            <td>085157443845</td>
+          </tr>
+        </table>
+      </section>
 
-      <!-- Nur-->
-    <!-- Baris Profil -->
-     
-      <th colspan="2">Profil Nur</th>
-    </tr>
-    <tr>
-      <td width="30%" align="center">
-        <img src="images/nur.jpg" alt="Foto Profil" width="150" ">
-      </td>
-      <td>
-        <p><b>Nama:</b> Nur Jamilah</p>
-        <p><b>Umur:</b> 50 tahun</p>
-        <p><b>Deskripsi:</b> Berangkat dari pengalaman di bidang pengelolaan aset dan penilaian properti (<i>tangible assets</i>), saya kini mengalihkan fokus karier ke dunia teknologi, khususnya Software Engineering. Saya bersemangat untuk menerapkan keterampilan analitis dan perhatian terhadap detail yang telah saya kembangkan selama bertahun-tahun ke dalam pengembangan perangkat lunak. Melalui kursus FSSE di RevoU, saya berkomitmen untuk membangun fondasi yang kuat dalam <i>coding</i> dan kolaborasi tim guna menciptakan solusi teknologi yang inovatif dan berdampak.</p>
-      </td>
-    </tr>
 
-    <!-- Baris Kontak -->
+      <section>
+        <table>
+          <tr>
+            <th colspan="2">Profil Nur</th>
+          </tr>
+          <tr>
+            <td width="30%" align="center">
+              <img src="images/nur.jpg" alt="Foto Profil" width="150" />
+            </td>
+            <td>
+              <p><b>Nama:</b> Nur Jamilah</p>
+              <p><b>Umur:</b> 50 tahun</p>
+              <p>
+                <b>Deskripsi:</b> Berangkat dari pengalaman di bidang
+                pengelolaan aset dan penilaian properti (<i>tangible assets</i
+                >), saya kini mengalihkan fokus karier ke dunia teknologi,
+                khususnya Software Engineering. Saya bersemangat untuk
+                menerapkan keterampilan analitis dan perhatian terhadap detail
+                yang telah saya kembangkan selama bertahun-tahun ke dalam
+                pengembangan perangkat lunak. Melalui kursus FSSE di RevoU, saya
+                berkomitmen untuk membangun fondasi yang kuat dalam
+                <i>coding</i> dan kolaborasi tim guna menciptakan solusi
+                teknologi yang inovatif dan berdampak.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">Kontak</th>
+          </tr>
+          <tr>
+            <td><b>Email</b></td>
+            <td>
+              <a href="mailto:worknurjam@gmail.com">worknurjam@gmail.com</a>
+            </td>
+          </tr>
+          <tr>
+            <td><b>LinkedIn</b></td>
+            <td>
+              <a
+                href="https://www.linkedin.com/in/nur-jamilah-532502266/"
+                target="_blank"
+                >linkedin.com/in/nur-jamilah</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><b>GitHub</b></td>
+            <td>
+              <a href="https://github.com/nurjamilahh" target="_blank"
+                >github.com/nurjamilahh</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><b>Nomor Telepon</b></td>
+            <td>085782602672</td>
+          </tr>
+        </table>
+      </section>
 
-      <th colspan="2">Kontak</th>
-    </tr>
-    <tr>
-      <td><b>Email</b></td>
-      <td><a href="mailto:worknurjam@gmail.com"> worknurjam@gmail.com</a></td>
-    </tr>
-    <tr>
-      <td><b>LinkedIn</b></td>
-      <td><a href="https://www.linkedin.com/in/nur-jamilah-532502266/" target="_blank">linkedin.com/in/nur-jamilah</a></td>
-    </tr>
-    <tr>
-      <td><b>GitHub</b></td>
-      <td><a href="https://github.com/nurjamilahh" target="_blank">github.com/nurjamilahh</a></td>
-    </tr>
-    <tr>
-      <td><b>Nomor Telepon</b></td>
-      <td>085782602672</td>
-    </tr>
-  </table>
-  </section>
 
-<section>
-    <table border="1" cellpadding="10" cellspacing="0" width="80%">
+      <section>
+        <table>
+          <tr>
+            <th colspan="2">Profil Stephen</th>
+          </tr>
+          <tr>
+            <td width="30%" align="center">
+              <img src="images/nama.jpg" alt="Foto Profil" width="150" />
+            </td>
+            <td>
+              <p><b>Nama:</b> Stephen Joshua</p>
+              <p><b>Umur:</b> 15 tahun</p>
+              <p>
+                <b>Deskripsi:</b> Saya adalah seorang pelajar yang sangat
+                tertarik dengan dunia teknologi dan pengembangan perangkat
+                lunak. Meskipun masih muda, saya memiliki semangat yang besar
+                untuk belajar dan berkembang di bidang Software Engineering.
+                Melalui kursus FSSE di RevoU, saya berkomitmen untuk membangun
+                keterampilan teknis yang kuat serta kemampuan bekerja dalam tim
+                guna menciptakan solusi teknologi yang inovatif dan bermanfaat
+                bagi masyarakat.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">Kontak</th>
+          </tr>
+          <tr>
+            <td><b>Email</b></td>
+            <td>
+              <a href="mailto:stephenjm15@gmail.com">stephenjm15@gmail.com</a>
+            </td>
+          </tr>
+          <tr>
+            <td><b>LinkedIn</b></td>
+            <td><a href="#" target="_blank">isi linkedin</a></td>
+          </tr>
+          <tr>
+            <td><b>GitHub</b></td>
+            <td>
+              <a
+                href="https://github.com/stephen1234567890000000"
+                target="_blank"
+                >stephen1234567890000000</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><b>Nomor Telepon</b></td>
+            <td>081288882244</td>
+          </tr>
+        </table>
+      </section>
+    </article>
 
-      <!-- Stephen-->
-    <!-- Baris Profil -->
-
-      <th colspan="2">Profil Stephen</th>
-    </tr>
-    <tr>
-      <td width="30%" align="center">
-        <img src="images/nama.jpg" alt="Foto Profil" width="150" >
-      </td>
-      <td>
-        <p><b>Nama:</b> Stephen Joshua</p>
-        <p><b>Umur:</b> 15 tahun</p>
-        <p><b>Deskripsi:</b> Saya adalah seorang pelajar yang sangat tertarik dengan dunia teknologi dan pengembangan perangkat lunak. Meskipun masih muda, saya memiliki semangat yang besar untuk belajar dan berkembang di bidang Software Engineering. Melalui kursus FSSE di RevoU, saya berkomitmen untuk membangun keterampilan teknis yang kuat serta kemampuan bekerja dalam tim guna menciptakan solusi teknologi yang inovatif dan bermanfaat bagi masyarakat.
-</p>
-      </td>
-    </tr>
-
-    <!-- Baris Kontak -->
-
-      <th colspan="2">Kontak</th>
-    </tr>
-    <tr>
-      <td><b>Email</b></td>
-      <td><a href="mailto:stephenjm15@gmail.com">stephenjm15@gmail.com</a></td>
-    </tr>
-    <tr>
-      <td><b>LinkedIn</b></td>
-      <td><a href="https://www.linkedin.com/in/valentino-juan-agushta-002208301" target="_blank">isi linkedin</a></td>
-    </tr>
-    <tr>
-      <td><b>GitHub</b></td>
-      <td><a href="https://github.com/stephen1234567890000000" target="_blank">stephen1234567890000000</a></td>
-    </tr>
-    <tr>
-      <td><b>Nomor Telepon</b></td>
-      <td>081288882244</td>
-    </tr>
-  </table>
-  </section>
-  </article>
-  
-  <footer>
-    <p>&copy; 2025 FSSE RevoU | <a href="https://github.com/valentinojuan79/portofolio-task" target="_blank" style="text-decoration:none; color:black;"><i class="fa-brands fa-github"></i>GitHub</a></p>
-  </footer>
-</body>
+    <footer>
+      <p>
+        &copy; 2025 FSSE RevoU |
+        <a
+          href="https://github.com/valentinojuan79/portofolio-task"
+          target="_blank"
+          ><i class="fa-brands fa-github"></i> GitHub</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
